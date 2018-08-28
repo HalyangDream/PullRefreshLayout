@@ -6,8 +6,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.pullrefreshlayout.activity.GridViewActivity;
 import com.example.pullrefreshlayout.activity.ListViewActivity;
 import com.example.pullrefreshlayout.activity.RecyclerActivity;
+import com.example.pullrefreshlayout.activity.ScorllViewActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -41,8 +43,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(listviewIntent);
                 break;
             case R.id.gridview:
+                Intent gridviewIntent = new Intent(this, GridViewActivity.class);
+                startActivity(gridviewIntent);
                 break;
             case R.id.scrollview:
+                Intent scrollviewIntent = new Intent(this, ScorllViewActivity.class);
+                startActivity(scrollviewIntent);
                 break;
             default:
                 break;

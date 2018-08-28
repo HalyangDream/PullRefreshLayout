@@ -18,6 +18,10 @@
         <activity android:name=".activity.RecyclerActivity" />
 
         <activity android:name=".activity.ListViewActivity" />
+
+        <activity android:name=".activity.GridViewActivity" />
+
+        <activity android:name=".activity.ScorllViewActivity" />
     </application>
 
 </manifest>
