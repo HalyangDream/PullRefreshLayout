@@ -16,6 +16,8 @@
         </activity>
 
         <activity android:name=".activity.RecyclerActivity" />
+
+        <activity android:name=".activity.ListViewActivity" />
     </application>
 
 </manifest>

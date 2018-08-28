@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.pullrefreshlayout.activity.ListViewActivity;
 import com.example.pullrefreshlayout.activity.RecyclerActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
@@ -36,6 +37,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(intent);
                 break;
             case R.id.listview:
+                Intent listviewIntent = new Intent(this, ListViewActivity.class);
+                startActivity(listviewIntent);
                 break;
             case R.id.gridview:
                 break;
