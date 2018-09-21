@@ -164,7 +164,6 @@ public class SwipeRefreshView extends SwipeRefreshLayout {
     public void setLoading(boolean loading) {
         // 修改当前的状态
         isLoading = loading;
-        mRecyclerView.addView();
         if (isLoading) {
             // 显示布局
             mListView.addFooterView(mFooterView);
